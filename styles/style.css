@@ -22,12 +22,8 @@
     list-style: circle;
     font-family: Raleway;
     font-weight: 400;
-    font-style: Regular;
     font-size: 18px;
-    leading-trim: NONE;
     line-height: 100%;
-    letter-spacing: 0%;
-
 }
 .header__links-list-item_no-bullit {
     list-style: none;
@@ -44,12 +40,8 @@
     margin-right: 95px;
     font-family: Raleway;
     font-weight: 400;
-    font-style: Regular;
     font-size: 18px;
-    leading-trim: NONE;
     line-height: 24.3px;
-    letter-spacing: 0%;
-
 }
 .cover {
     min-height: 757px;
@@ -79,10 +71,8 @@
 .cover__title {
     font-family: Raleway;
     font-weight: 700;
-    font-style: Bold;
     font-size: 100px;
     line-height: 114.99999999999999%;
-    letter-spacing: 100%;
     text-transform: uppercase;
     color: white;
 }
@@ -117,11 +107,8 @@
     height: 28px;
     font-family: Raleway;
     font-weight: 400;
-    font-style: Regular;
     font-size: 22px;
-    leading-trim: NONE;
     line-height: 28px;
-    letter-spacing: 0%;
     text-transform: uppercase;
     color: white;
     word-spacing: 17px;
@@ -132,17 +119,13 @@
     height: 51px;
     top: 656px;
     left: 794px;
-    angle: 0 deg;
     opacity: 1;
     border: 1px solid white;
     background-color: transparent;
     font-family: Raleway;
     font-weight: 500;
-    font-style: Medium;
     font-size: 22px;
-    leading-trim: NONE;
     line-height: 100%;
-    letter-spacing: 0%;
     text-align: center;
     text-transform: uppercase;
     color: white;
@@ -160,11 +143,8 @@
 .lots__heading {
     font-family: Raleway;
     font-weight: 700;
-    font-style: Bold;
     font-size: 40px;
-    leading-trim: NONE;
     line-height: 100%;
-    letter-spacing: 0%;
     text-transform: uppercase;
     margin-left: 40px;
     margin-bottom: 27px;
@@ -181,7 +161,6 @@
     width: 334px;
     min-height: 596px;
     padding-left: 40px;
-    padding-top: px;
     position: relative;
 }
 .card__title {
@@ -190,15 +169,11 @@
     z-index: 1;
     font-family: Raleway;
     font-weight: 700;
-    font-style: Bold;
     font-size: 22px;
-    leading-trim: NONE;
     line-height: 120%;
-    letter-spacing: 0%;
     text-transform: uppercase;
     text-decoration: underline;
     text-decoration-style: solid;
-    text-decoration-offset: 0%;
     text-decoration-thickness: 0%;
     color: white;
 }
@@ -209,11 +184,8 @@
     z-index: 1;
     font-family: Raleway;
     font-weight: 400;
-    font-style: Regular;
     font-size: 20px;
-    leading-trim: NONE;
     line-height: 120%;
-    letter-spacing: 0%;
     color: #FFFFFF;
 }
 .card_type_film {
@@ -239,11 +211,8 @@
     margin-left: 40px;
     font-family: Raleway;
     font-weight: 400;
-    font-style: Regular;
     font-size: 20px;
-    leading-trim: NONE;
     line-height: 100%;
-    letter-spacing: 0%;
 }
 .about {
     margin-top: 120px;
@@ -277,11 +246,8 @@
     margin-left: 48px;
     font-family: Raleway;
     font-weight: 700;
-    font-style: Bold;
     font-size: 40px;
-    leading-trim: NONE;
     line-height: 100%;
-    letter-spacing: 0%;
     text-transform: uppercase;
 }
 .about__text {
@@ -292,11 +258,8 @@
     gap: 24px;
     font-family: Raleway;
     font-weight: 400;
-    font-style: Regular;
     font-size: 20px;
-    leading-trim: NONE;
     line-height: 24px;
-    letter-spacing: 0%;
 }
 .footer {
     margin-top: 180px;
@@ -317,12 +280,8 @@
     height: 98px;
     font-family: Raleway;
     font-weight: 400;
-    font-style: Regular;
     font-size: 18px;
-    leading-trim: NONE;
     line-height: 24.3px;
-    letter-spacing: 0%;
-
 }
 .footer__menu {
     margin-left: 15px;
@@ -339,11 +298,8 @@
 .footer__menu-link {
     font-family: Raleway;
     font-weight: 400;
-    font-style: Regular;
     font-size: 18px;
-    leading-trim: NONE;
     line-height: 100%;
-    letter-spacing: 0%;
     text-align: center;
 
 }
