@@ -8,6 +8,7 @@
 }
 
 .header__links-list {
+    margin-left: 55px;
     display: flex;
     gap: 30px;
     width: 391.4786376953125px;
@@ -15,10 +16,18 @@
 }
 .header__logo-image {
     width: 148px;
-    height: 105px;
+    min-height: 105px;
 }
 .header__links-list-item {
     list-style: circle;
+    font-family: Raleway;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 18px;
+    leading-trim: NONE;
+    line-height: 100%;
+    letter-spacing: 0%;
+
 }
 .header__links-list-item_no-bullit {
     list-style: none;
@@ -30,6 +39,17 @@
     flex-direction: column;
     align-items: flex-start;
     justify-self: end;
+}
+.header__address {
+    margin-right: 95px;
+    font-family: Raleway;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 18px;
+    leading-trim: NONE;
+    line-height: 24.3px;
+    letter-spacing: 0%;
+
 }
 .cover {
     min-height: 757px;
@@ -50,7 +70,7 @@
     background-color: rgba(0, 0, 0, 0.5);
 }
 .cover_text {
-    width: 1000px;
+    width: 1020px;
     height: 385px;
     margin: 165px 50px 0px 50px;
     position: relative;
@@ -70,13 +90,16 @@
 .aligned-text {
     letter-spacing: 25px;
     display: block;
+    margin-top: 20px;
 }
 .aligned-text_center {
     text-align: center;
+
 }
 
 .aligned-text_right {
     text-align: right;
+    margin-top: 25px;
 }
 .cover_description {
     width: 1000px;
@@ -101,7 +124,8 @@
     letter-spacing: 0%;
     text-transform: uppercase;
     color: white;
-    word-spacing: 10px;
+    word-spacing: 17px;
+    margin-bottom: 18px;
 }
 .bet-button {
     width: 256px;
@@ -123,6 +147,8 @@
     text-transform: uppercase;
     color: white;
     cursor: pointer;
+    margin-bottom: 18px;
+
 }
 .lots {
     width: 1052px;
@@ -151,14 +177,15 @@
 .card {
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: space-between;
     width: 334px;
     min-height: 596px;
     padding-left: 40px;
-    padding-top: 48px;
+    padding-top: px;
     position: relative;
 }
 .card__title {
+    margin-top: 48px;
     position: relative;
     z-index: 1;
     font-family: Raleway;
@@ -177,6 +204,7 @@
 }
 .card__text {
     margin-right: 40px;
+    margin-bottom: 48px;
     position: relative;
     z-index: 1;
     font-family: Raleway;
@@ -216,7 +244,6 @@
     leading-trim: NONE;
     line-height: 100%;
     letter-spacing: 0%;
-    border-bottom: 1px solid #000;
 }
 .about {
     margin-top: 120px;
@@ -226,8 +253,8 @@
     grid-template-columns: 334px auto;
 }
 .about__logo {
-    margin-left: 47px;
-    margin-top: 35px;
+    margin-left: 70px;
+    margin-top: 30px;
     width: 240px;
     height: 240px;
     background-color: black;
@@ -247,6 +274,7 @@
     justify-content: space-between;
 }
 .about__title {
+    margin-left: 48px;
     font-family: Raleway;
     font-weight: 700;
     font-style: Bold;
@@ -257,6 +285,8 @@
     text-transform: uppercase;
 }
 .about__text {
+    margin-left: 47px;
+    margin-bottom: 5px;
     display: flex;
     flex-direction: column;
     gap: 24px;
@@ -272,7 +302,7 @@
     margin-top: 180px;
     height: 180px;
     display: grid;
-    grid-template-columns: 264.57px 163.9px 240px;
+    grid-template-columns: 264.57px 163.9px calc(240px + 50px);
     justify-content: space-between;
 }
 .footer__social-icon {
@@ -281,8 +311,22 @@
 }
 .contacts {
     margin-left: 50px;
+    width: 264.57px;
+}
+.footer__address {
+    height: 98px;
+    font-family: Raleway;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 18px;
+    leading-trim: NONE;
+    line-height: 24.3px;
+    letter-spacing: 0%;
+
 }
 .footer__menu {
+    margin-left: 15px;
+    margin-top: 5px;
     text-align: center;
     width: 163.9px;
     list-style: none;
@@ -292,8 +336,20 @@
 .footer__menu-list {
     list-style: none;
 }
+.footer__menu-link {
+    font-family: Raleway;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 18px;
+    leading-trim: NONE;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-align: center;
+
+}
 .footer__social-list {
     display: flex;
+    margin-right: 10px;
     list-style: none;
     width: 240px;
     height: 48px;
