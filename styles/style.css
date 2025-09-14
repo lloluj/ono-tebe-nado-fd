@@ -267,14 +267,13 @@
     leading-trim: NONE;
     line-height: 24px;
     letter-spacing: 0%;
-
 }
 .footer {
     margin-top: 180px;
     height: 180px;
     display: grid;
     grid-template-columns: 264.57px 163.9px 240px;
-    justify-content: space-between;   
+    justify-content: space-between;
 }
 .footer__social-icon {
     width: 48px;
