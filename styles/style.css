@@ -154,7 +154,6 @@
     list-style: none;
     display: flex;
     gap: 25px;
-    display: flex;
     flex-wrap: wrap;
 }
 .card {
