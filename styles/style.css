@@ -1,9 +1,9 @@
-.header { 
+.header {
     display: grid;
     grid-template-columns: 1fr min-content 1fr;
     align-items: center;
 } /* при наложении макета в хедере и в футере у меня вроде нет расхождений,
-либо я непрвильно подставляю Pixel perfect*/
+либо я неправильно подставляю Pixel perfect*/
 .header__menu {
     margin-top: 80px;
 }
