@@ -1,10 +1,10 @@
 /* место для вашего кода */
-.header {
+.header { 
     display: grid;
     grid-template-columns: 1fr min-content 1fr;
     align-items: center;
-    /*height: 293px;*/
-}
+} /* при наложении макета в хедере и в футере у меня вроде нет расхождений,
+либо я непрвильно подставляю Pixel perfect*/
 .header__menu {
     margin-top: 80px;
 }
@@ -12,6 +12,15 @@
     margin-left: 55px;
     display: flex;
     gap: 30px;
+}
+.header__link {
+    font-family: Raleway , sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 100%;
+}
+.header__link_active {
+    text-decoration: none;
 }
 .header__logo {
     margin-top: 90px;
@@ -22,7 +31,7 @@
 }
 .header__links-list-item {
     list-style: circle;
-    font-family: Raleway;
+    font-family: Raleway , sans-serif;
     font-weight: 400;
     font-size: 18px;
     line-height: 100%;
@@ -31,7 +40,6 @@
     list-style: none;
 }
 .address {
-    margin-top: 80px;
     max-width: 240px;
     display: flex;
     flex-direction: column;
@@ -41,17 +49,15 @@
     font-weight: 400;
     font-size: 18px;
     line-height: 24.3px;
+    font-style: normal;
 }
 .header__address {
-    margin-right: 95px;
-    font-family: Raleway;
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 24.3px;
+    margin-top: 80px;
+    margin-right: 90px;
 }
 .cover {
     margin-top: 95.19px;
-    overflow: hidden;
+    padding-top: 1px;
     min-height: 757px;
     background-image: url(../images/cover.jpg);
     text-transform: uppercase;
@@ -109,7 +115,7 @@
 }
 .cover__description-text {
     width: 637px;
-    font-family: Raleway;
+    font-family: Raleway,sans-serif;
     font-weight: 400;
     font-size: 22px;
     line-height: 28px;
@@ -124,7 +130,7 @@
     opacity: 1;
     border: 1px solid white;
     background-color: transparent;
-    font-family: Raleway;
+    font-family: Raleway , sans-serif;
     font-weight: 500;
     font-size: 22px;
     line-height: 100%;
@@ -142,7 +148,7 @@
 
 }
 .lots__heading {
-    font-family: Raleway;
+    font-family: Raleway , sans-serif;
     font-weight: 700;
     font-size: 40px;
     line-height: 100%;
@@ -157,32 +163,26 @@
     flex-wrap: wrap;
 }
 .card {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
     width: 334px;
     min-height: 596px;
     padding-left: 40px;
     position: relative;
     background-size: cover;
     background-position: center;
+    display: flex;
+    flex-direction: column;
+}
+.card__article {
+    margin-top: 48px;
+    flex-direction: column;
+    /*height: 100%;*/ /* Занимает всю доступную высоту */
 }
 .card__title {
-    margin-top: 48px;
+    display: block;
+    margin-right: 40px;
     position: relative;
     z-index: 1;
-    font-family: Raleway;
-    font-weight: 700;
-    font-size: 22px;
-    line-height: 120%;
-    text-transform: uppercase;
-    text-decoration: underline;
-    text-decoration-style: solid;
-    text-decoration-thickness: 0%;
-    color: white;
-}
-.card__title h2 {
-    font-family: Raleway;
+    font-family: Raleway , sans-serif;
     font-weight: 700;
     font-size: 22px;
     line-height: 120%;
@@ -197,7 +197,7 @@
     margin-bottom: 48px;
     position: relative;
     z-index: 1;
-    font-family: Raleway;
+    font-family: Raleway, sans-serif;
     font-weight: 400;
     font-size: 20px;
     line-height: 120%;
@@ -205,7 +205,15 @@
 }
 .card_type_film {
     background-image: url(../images/card-lot-01.jpg);
-    
+}
+.card_type_film p {
+    margin-top: 274px;
+}
+.card_type_book p {
+    margin-top: 33px;
+}
+.card_type_picture p{
+    margin-top: 126px;
 }
 .card_type_book {
     background-image: url(../images/card-lot-02.jpg);
@@ -218,7 +226,7 @@
     display: block;
     margin-top: 30px;
     margin-left: 40px;
-    font-family: Raleway;
+    font-family: Raleway, sans-serif;
     font-weight: 400;
     font-size: 20px;
     line-height: 100%;
@@ -252,7 +260,7 @@
 }
 .about__title {
     margin-left: 48px;
-    font-family: Raleway;
+    font-family: Raleway , sans-serif;
     font-weight: 700;
     font-size: 40px;
     line-height: 100%;
@@ -265,7 +273,7 @@
     display: flex;
     flex-direction: column;
     gap: 24px;
-    font-family: Raleway;
+    font-family: Raleway, sans-serif;
     font-weight: 400;
     font-size: 20px;
     line-height: 24px;
@@ -285,12 +293,8 @@
     width: 264.57px;
 }
 .footer__address {
-    height: 98px;
-    font-family: Raleway;
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 24.3px;
     margin-bottom: 82px;
+    margin-right: 20px;
 }
 .footer__menu {
     margin-left: 15px;
@@ -304,7 +308,7 @@
     list-style: none;
 }
 .footer__menu-link {
-    font-family: Raleway;
+    font-family: Raleway, sans-serif;
     font-weight: 400;
     font-size: 18px;
     line-height: 100%;
