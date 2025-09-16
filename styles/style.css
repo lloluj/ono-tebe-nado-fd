@@ -270,10 +270,6 @@
     font-size: 20px;
     line-height: 24px;
 }
-.about__text p {
-    margin: 0; 
-    padding: 0;
-}
 .footer {
     margin-top: 180px;
     display: grid;
