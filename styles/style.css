@@ -1,18 +1,20 @@
 /* место для вашего кода */
-/* место для вашего кода */
 .header {
     display: grid;
     grid-template-columns: 1fr min-content 1fr;
     align-items: center;
-    height: 293px;
+    /*height: 293px;*/
 }
-
+.header__menu {
+    margin-top: 80px;
+}
 .header__links-list {
     margin-left: 55px;
     display: flex;
     gap: 30px;
-    width: 391.4786376953125px;
-    height: 22.00001335144043px;
+}
+.header__logo {
+    margin-top: 90px;
 }
 .header__logo-image {
     width: 148px;
@@ -29,12 +31,16 @@
     list-style: none;
 }
 .address {
+    margin-top: 80px;
     max-width: 240px;
-    height: 98px;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     justify-self: end;
+    font-family: Raleway ,sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24.3px;
 }
 .header__address {
     margin-right: 95px;
@@ -44,9 +50,10 @@
     line-height: 24.3px;
 }
 .cover {
+    margin-top: 95.19px;
+    overflow: hidden;
     min-height: 757px;
-    border: 1px solid black;
-    background-image: url(/images/cover.jpg);
+    background-image: url(../images/cover.jpg);
     text-transform: uppercase;
     position: relative;
     background-size: cover;
@@ -59,17 +66,16 @@
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgba(0, 0, 0, 0.6);
 }
 .cover_text {
     width: 1020px;
-    height: 385px;
     margin: 165px 50px 0px 50px;
     position: relative;
     z-index: 1;
 }
 .cover__title {
-    font-family: Raleway;
+    font-family: Raleway, sans-serif;
     font-weight: 700;
     font-size: 100px;
     line-height: 114.99999999999999%;
@@ -93,9 +99,8 @@
 }
 .cover_description {
     width: 1000px;
-    height: 51px;
     margin: 0 auto;
-    margin-top: 118px;
+    margin-top: 105px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -104,7 +109,6 @@
 }
 .cover__description-text {
     width: 637px;
-    height: 28px;
     font-family: Raleway;
     font-weight: 400;
     font-size: 22px;
@@ -117,8 +121,6 @@
 .bet-button {
     width: 256px;
     height: 51px;
-    top: 656px;
-    left: 794px;
     opacity: 1;
     border: 1px solid white;
     background-color: transparent;
@@ -135,7 +137,6 @@
 }
 .lots {
     width: 1052px;
-    height: 723px;
     margin: 0 auto;
     margin-top: 180px;
 
@@ -153,6 +154,8 @@
     list-style: none;
     display: flex;
     gap: 25px;
+    display: flex;
+    flex-wrap: wrap;
 }
 .card {
     display: flex;
@@ -162,11 +165,24 @@
     min-height: 596px;
     padding-left: 40px;
     position: relative;
+    background-size: cover;
+    background-position: center;
 }
 .card__title {
     margin-top: 48px;
     position: relative;
     z-index: 1;
+    font-family: Raleway;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 120%;
+    text-transform: uppercase;
+    text-decoration: underline;
+    text-decoration-style: solid;
+    text-decoration-thickness: 0%;
+    color: white;
+}
+.card__title h2 {
     font-family: Raleway;
     font-weight: 700;
     font-size: 22px;
@@ -189,23 +205,17 @@
     color: #FFFFFF;
 }
 .card_type_film {
-    background-image: url(/images/card-lot-01.jpg);
-    background-size: cover;
-    background-position: center;
+    background-image: url(../images/card-lot-01.jpg);
+    
 }
 .card_type_book {
-    background-image: url(/images/card-lot-02.jpg);
-    background-size: cover;
-    background-position: center;
+    background-image: url(../images/card-lot-02.jpg);
 }
 .card_type_picture {
-    background-image: url(/images/card-lot-03.jpg);
-    background-size: cover;
-    background-position: center;
+    background-image: url(../images/card-lot-03.jpg);
 }
 .lots__look-more-link {
     width: 192px;
-    height: 25px;
     display: block;
     margin-top: 30px;
     margin-left: 40px;
@@ -216,10 +226,9 @@
 }
 .about {
     margin-top: 120px;
-    width: 1052px;
-    height: 595px;
     display: grid;
     grid-template-columns: 334px auto;
+    width: 1052px;
 }
 .about__logo {
     margin-left: 70px;
@@ -251,6 +260,7 @@
     text-transform: uppercase;
 }
 .about__text {
+    margin-top: 105px;
     margin-left: 47px;
     margin-bottom: 5px;
     display: flex;
@@ -261,9 +271,12 @@
     font-size: 20px;
     line-height: 24px;
 }
+.about__text p {
+    margin: 0; 
+    padding: 0;
+}
 .footer {
     margin-top: 180px;
-    height: 180px;
     display: grid;
     grid-template-columns: 264.57px 163.9px calc(240px + 50px);
     justify-content: space-between;
@@ -282,6 +295,7 @@
     font-weight: 400;
     font-size: 18px;
     line-height: 24.3px;
+    margin-bottom: 82px;
 }
 .footer__menu {
     margin-left: 15px;
@@ -289,7 +303,6 @@
     text-align: center;
     width: 163.9px;
     list-style: none;
-    height: 64px;
     white-space: nowrap;
 }
 .footer__menu-list {
